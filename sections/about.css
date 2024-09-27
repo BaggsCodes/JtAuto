@@ -135,3 +135,27 @@
   color: red;
   font-weight: normal;
 }
+.about__txt-hours {
+  background-color: hsla(0, 0%, 0%, 0.55);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__txt-hours h2 {
+  margin-bottom: 10px;
+}
+.about__txt-hours h1 {
+  margin-top: 10px;
+}
+.about__txt-msg {
+  background-color: hsla(0, 0%, 0%, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  height: 200px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  word-spacing: 1px;
+  line-height: 35px;
+}
