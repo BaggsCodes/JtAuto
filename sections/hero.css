@@ -51,7 +51,7 @@
   margin-bottom: 20px;
 }
 .back__img-btn button {
-  width: 200px;
+  width: 300px;
   height: 40px;
 
   border: 1px solid #b0b0b0;
@@ -61,7 +61,7 @@
   color: #f3f3f3;
   font-family: var(--playfair-display);
   font-weight: 800;
-  font-size: 13px;
+  font-size: 17px;
   letter-spacing: 1px;
 
   cursor: pointer;
