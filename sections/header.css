@@ -1,0 +1,108 @@
+.header__nav {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+
+  font-style: var(--playfair-display);
+  color: #eee;
+
+  background-color: #ffffff;
+  height: 100px;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+
+  padding-left: 20px;
+
+  text-shadow: 0 0 3px #010000, 0 0 5px #000000;
+
+  font-weight: 800;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: var(--playfair-display);
+  color: rgb(255, 255, 255);
+}
+.header__nav-list {
+  display: flex;
+  justify-content: center;
+
+  width: 500px;
+  margin-right: 40px;
+}
+.header__menu {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 0px 0 0 20px;
+
+  color: black;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-family: "Noto Sans", sans-serif;
+
+  list-style: none;
+}
+.header__menu .button-84 {
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(#464d55, #25292e);
+  border-radius: 8px;
+  border-width: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 13px;
+  height: 45px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 12px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-84:hover {
+  box-shadow: rgba(0, 1, 0, 0.2) 0 2px 8px;
+  opacity: 0.85;
+}
+
+.button-84:active {
+  outline: 0;
+}
+
+.button-84:focus {
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+  .button-84 {
+    height: 48px;
+  }
+}
+
+.header__img-logo img {
+  height: 80px;
+  padding-right: 10px;
+}

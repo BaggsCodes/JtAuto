@@ -1,0 +1,28 @@
+@import url("/sections/header.css");
+@import url("/sections/hero.css");
+@import url("/sections/footer.css");
+@import url("/sections/cards.css");
+@import url("/sections/services.css");
+@import url("/sections/ref.css");
+@import url("/sections/about.css");
+
+:root {
+  --playfair-display: "Playfair Display", serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
