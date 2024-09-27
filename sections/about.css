@@ -11,7 +11,7 @@
       rgba(0, 0, 0, 0.3),
       rgba(37, 36, 37, 0.91)
     ),
-    url("/img/A-orbit_tires.jpg");
+    url("./img/A-orbit_tires.jpg");
   width: 50%;
   height: 500px;
   background-size: cover;
