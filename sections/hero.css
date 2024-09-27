@@ -66,3 +66,9 @@
 
   cursor: pointer;
 }
+.back__img-btn button:hover {
+
+  background-color: rgba(38, 177, 23, 0.95);
+  color: #f3f3f3;
+
+}
